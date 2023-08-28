@@ -8,8 +8,9 @@ def add(x, y):
 
 def substract(x, y):
     """Substract y to x """
-    if (isinstance(x, int) or isinstance(x, float)) and (isinstance(y, int) or
-            isinstance(y, float)):
+    if (
+        isinstance(x, int) or isinstance(x, float)) \
+            and (isinstance(y, int) or isinstance(y, float)):
         return x - y
 
     return ValueError()
